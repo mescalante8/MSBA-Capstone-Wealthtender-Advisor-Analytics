@@ -1,5 +1,7 @@
 # Wealthtender Analytics — WordPress Plugin
 
+My contribution: I worked with a teammate to develop the NLP embeddings and provided input on the scoring approach, the dashboard's advisor-facing features, and its visual design for readability. I also contributed to the methodology write-up and the early research on Wealthtender. As project manager, I coordinated communication between our MSBA team, the undergraduate contributors, and Wealthtender, and built the project timeline. The full team is listed in the NOTICE file.
+
 A WordPress admin plugin that gives Wealthtender an interactive analytics dashboard for their financial-advisor review data. The dashboard is built on Plotly.js and powered by a PHP REST API that reads pre-computed CSV artifacts. No external database, no Python at runtime — just static CSV files served through the WP REST API.
 
 This repo contains everything needed to run the dashboard locally or deploy it to the Wealthtender production WordPress site.
